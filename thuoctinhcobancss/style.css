@@ -1,0 +1,24 @@
+body {
+  background-image: url(./IMG/photo-1777041916709-d7fff7ddb91d.avif);
+}
+h1 {
+  color: blueviolet;
+  /* màu chữ */
+  font-style: italic;
+  /* kiểu chứ */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font chữ  */
+  text-transform: capitalize;
+  /* chuyển chữ hoa thường */
+  text-align: center;
+  /* căn giữa */
+  font-size: 20px;
+  /* cỡ chữ */
+  opacity: 50%;
+}
+h2 {
+  visibility: hidden;
+}
+span {
+  visibility: visible;
+}
