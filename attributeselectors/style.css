@@ -1,0 +1,29 @@
+h1[href] {
+  color: red;
+}
+[title*="Anh"] {
+  color: red;
+  background-color: aqua;
+  margin: 1px 2px 2px 1px;
+}
+/* chọn các title có từ Anh bất kể ở đâu */
+[title|="pic"] {
+  color: azure;
+  background-color: black;
+}
+/* chọn các title có từ có từ pic */
+[title^="nigga"] {
+  color: azure;
+  background-color: darkblue;
+}
+/*chọn các title có từ nigga mặc kệ những khoảng space */
+[title$="9"] {
+  color: aquamarine;
+  background-color: blueviolet;
+}
+/* chọn các title kết thúc bằng số 9 */
+[title$="7"] {
+  color: green;
+  background-color: yellow;
+}
+/* chọn các title kết thúc bằng số 7 */

@@ -1,0 +1,41 @@
+/* !.Tác dụng lên selector khi di chuột qua */
+#line2:hover {
+  color: blueviolet;
+  font-size: 30px;
+}
+/* 2.Tác dụng lên selector khi được nhấn giữ chuột */
+.dichuot:active {
+  color: aquamarine;
+  background-color: antiquewhite;
+}
+/* 3.Tác dụng lên selector khi chưa click vào link truy cập */
+#clickme:link {
+  color: aquamarine;
+  background-color: bisque;
+}
+/* 4>Tác dụng lên selector khi đã click vào link truy cập */
+#clickme:visited {
+  color: blueviolet;
+  background-color: red;
+}
+/* 5.Tác dụng lên selector khi nó trống */
+.div_elm:empty {
+  height: 200px;
+  width: 200px;
+  background-color: violet;
+}
+.div_elm {
+  height: 200px;
+  width: 200px;
+  background-color: rebeccapurple;
+}
+/* ^.Tác dụng lên selector khi nó được bấm vào và nhảy đến vùng đó */
+#mobai:target {
+  color: blueviolet;
+}
+#thanbai:target {
+  color: aquamarine;
+}
+#ketbai:target {
+  color: navajowhite;
+}
