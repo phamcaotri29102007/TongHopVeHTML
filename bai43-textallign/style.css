@@ -1,0 +1,14 @@
+.container p {
+  text-align: center;
+}
+.container img {
+  max-width: 600px;
+}
+body {
+  background-color: violet;
+}
+h1 {
+  text-align: center;
+  width: 500px;
+  height: 20px;
+}

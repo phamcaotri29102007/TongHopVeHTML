@@ -1,0 +1,11 @@
+.class {
+  margin-left: -75px;
+  max-width: 200px;
+  max-height: 150px;
+}
+.class.class2 {
+  margin-right: 70px;
+}
+body {
+  background-color: black;
+}

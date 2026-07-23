@@ -1,0 +1,12 @@
+h1 {
+  width: 300px;
+  height: 100px;
+  padding: 20px 20px 20px 20px;
+  /* border-width: 10px 15px 20px 25px;
+  border-style: dashed solid dotted double;
+  border-color: red blue orange green; */
+  border: 10px dashed red;
+  border-radius: 90px;
+  background-color: violet;
+  margin: 100px 100px 100px 100px;
+}

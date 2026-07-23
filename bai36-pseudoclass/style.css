@@ -1,0 +1,22 @@
+p:first-child {
+  color: aquamarine;
+  font-size: 30px;
+}
+/* the con dau tien */
+p:last-child {
+  color: blue;
+  font-size: 30px;
+}
+/* the con cuoi cung */
+p:nth-child(2) {
+  color: red;
+  font-size: 30px;
+}
+/* the con thu 2 */
+p:nth-last-child(2) {
+  color: green;
+}
+/* the con thu 2 tu cuoi dem len*/
+p:only-child {
+  color: yellow;
+}

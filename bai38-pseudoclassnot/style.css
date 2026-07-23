@@ -1,0 +1,6 @@
+/* .top:not(p) {
+  background-color: yellow;
+} */
+.top:not(:first-of-type) {
+  background-color: red;
+}
