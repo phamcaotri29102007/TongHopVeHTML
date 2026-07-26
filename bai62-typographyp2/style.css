@@ -1,0 +1,16 @@
+p {
+  /* word-spacing: 10px;
+  letter-spacing: 10px; */
+  text-align: center;
+  /* can deu 2 ben */
+  /* text-align: right; */
+  /* can phai */
+  /* text-align-last: left; */
+  /* can trai */
+  /* text-align: center; */
+  /* can giua */
+}
+.home {
+  text-align: center;
+  display: block;
+}

@@ -1,0 +1,16 @@
+.box {
+  width: 100px;
+  height: 150px;
+  padding: 20px;
+  border: 20px solid red;
+  outline: 20px solid blue;
+  outline-offset: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+.box1 {
+  box-sizing: content-box;
+}
+.box2 {
+  box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 10px solid red;
+}
+.box1 {
+  margin-bottom: 40px;
+}
+.box2 {
+  margin-top: 50px;
+}
+/* chon margin co so lon hon de chon lam margin */
+/* chi xay ra voi 2 margin duoc thiet lap nguoc chieu nhau */
+.item {
+  background-color: red;
+  border: 1px solid black;
+}
+.item1 {
+  margin-right: 40px;
+}
+.item2 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.item3 {
+  margin-left: 60px;
+}

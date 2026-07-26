@@ -1,0 +1,13 @@
+.parent {
+  font-size: 10px;
+}
+html {
+  font-size: 40 * 62.5%px;
+}
+.child {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  border: 0.2rem solid red;
+}
+/* the rem khong ke thua nen la 32px chu khong nhan don nhu em */

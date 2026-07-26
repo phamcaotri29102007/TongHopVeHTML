@@ -1,0 +1,43 @@
+/* TH!:khong co font size nen lay size goc la 16px */
+/* .child {
+  width: 10em;
+  height: 10em;
+  background-color: violet;
+} */
+/* TH2:co font size tuyet doi */
+/* .parent {
+  font-size: 30px;
+}
+.child {
+  width: 10em;
+  height: 10em;
+  background-color: violet;
+} */
+/* TH3:co font size cua cha lan cua con */
+/* .parent {
+  font-size: 30px;
+}
+.child {
+  font-size: 10px;
+  width: 10em;
+  height: 10em;
+  background-color: violet;
+} */
+/* TH4:font size cha la gia tri tuong doi */
+/* .parent {
+  font-size: 2em;
+}
+.child {
+  width: 10em;
+  height: 10em;
+  background-color: violet;
+} */
+.parent {
+  font-size: 10px;
+}
+.child {
+  font-size: rem;
+  width: 2em;
+  height: 2em;
+}
+/* 10px->20px->40px->80px */

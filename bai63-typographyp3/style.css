@@ -1,0 +1,12 @@
+p {
+  text-decoration: underline dotted darkblue;
+  text-indent: 30px;
+}
+strong {
+  text-decoration: line-through;
+  text-decoration: overline line-through underline darkblue dotted;
+}
+.line {
+  text-indent: 40px;
+  text-transform: capitalize;
+}

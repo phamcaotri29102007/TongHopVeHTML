@@ -1,0 +1,37 @@
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  overflow: auto;
+  position: relative;
+  list-style: none;
+  padding: 0px;
+}
+li:nth-child(even) {
+  background-color: aquamarine;
+}
+li:nth-child(odd) {
+  background-color: blanchedalmond;
+}
+body {
+  text-align: center;
+  display: block;
+}
+/* width */
+.box::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+.box::-webkit-scrollbar-track {
+  background: #8b3131;
+  border-radius: 999px;
+}
+/* Handle */
+.box::-webkit-scrollbar-thumb {
+  background: #174be5ea;
+}
+
+/* Handle on hover */
+.box::-webkit-scrollbar-thumb:hover {
+  background: #0b6ee8;
+}

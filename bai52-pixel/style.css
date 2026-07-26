@@ -1,0 +1,10 @@
+h2 {
+  font-size: 30px;
+  width: 120px;
+  height: 30px;
+  background-color: pink;
+}
+p {
+  font-size: 50%;
+  background-color: pink;
+}
